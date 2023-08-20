@@ -11,10 +11,6 @@ package com.mycompany.productionProblem;
 public class Consumer extends Thread{
     private Buffer buffer;
 
-    public Consumer() {
-        this.buffer = new Buffer();
-    }
-
     public Consumer(Buffer buffer) {
         this.buffer = buffer;
     }

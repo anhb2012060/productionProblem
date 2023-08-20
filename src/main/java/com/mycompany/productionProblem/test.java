@@ -18,10 +18,11 @@ public class test {
         Buffer buffer = new Buffer(10);
         Producer p1 = new Producer(buffer);
         Consumer c1 = new Consumer(buffer);
-        //Bắt đầu mua: 
-        c1.start();
+        
         //Bắt đầu sản xuất:
         p1.start();
+        //Bắt đầu mua: 
+        c1.start();
        
     }
 }
