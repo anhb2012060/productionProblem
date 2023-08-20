@@ -1,0 +1,4 @@
+com\mycompany\problemproducer\Producer.class
+com\mycompany\problemproducer\Buffer.class
+com\mycompany\problemproducer\Consumer.class
+com\mycompany\problemproducer\test.class
